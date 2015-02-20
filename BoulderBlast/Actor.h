@@ -2,6 +2,10 @@
 #define ACTOR_H_
 
 #include "GraphObject.h"
+class Actor : public GraphObject{
+public:
+};
+
 
 // Students:  Add code to this file, Actor.cpp, StudentWorld.h, and StudentWorld.cpp
 
