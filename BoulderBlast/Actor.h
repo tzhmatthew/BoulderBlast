@@ -2,7 +2,14 @@
 #define ACTOR_H_
 
 #include "GraphObject.h"
+
+class StudentWorld;
+
 class Actor : public GraphObject{
+public:
+};
+
+class Player : public Actor{
 public:
 };
 
