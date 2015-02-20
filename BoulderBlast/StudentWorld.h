@@ -3,6 +3,7 @@
 
 #include "GameWorld.h"
 #include "GameConstants.h"
+#include "actor.h"
 #include <string>
 
 // Students:  Add code to this file, StudentWorld.cpp, Actor.h, and Actor.cpp
@@ -32,6 +33,8 @@ public:
 	}
 
 private:
+	Player* M_player;
+
 };
 
 #endif // STUDENTWORLD_H_
